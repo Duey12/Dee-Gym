@@ -1,7 +1,5 @@
 <template>
     <section>
-        <page-header />
-
         <div v-if="isReady" class="mt-5">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 mt-3">
                 <div class="d-flex align-items-center justify-content-center">

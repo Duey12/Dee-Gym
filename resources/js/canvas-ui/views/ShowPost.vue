@@ -1,6 +1,5 @@
 <template>
     <section>
-        <page-header>
             <template slot="options">
                 <div class="dropdown">
                     <a

@@ -6,7 +6,15 @@ Route::get('/', function () {
     $postData=Canvas\Models\Post::published()->get();
     return view('home',['postData'=>$postData]);
 })->name('home');
-
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+Route::get('/price', function () {
+    return view('price');
+})->name('price');
 Route::prefix('canvas-ui')->group(function () {
     Route::prefix('api')->group(function () {
         Route::get('posts', [\App\Http\Controllers\CanvasUiController::class, 'getPosts']);

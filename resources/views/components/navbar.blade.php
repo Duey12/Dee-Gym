@@ -1,5 +1,5 @@
 <header class="fs-5" id="nav-header">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand text-white fs-3" href="/">Dee Sweat Camp</a>
 
@@ -14,16 +14,16 @@
                         <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="{{Route('home')}}">About</a>
+                        <a class="nav-link text-white" href="{{Route('about')}}">About</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="{{Route('home')}}">Packages</a>
+                        <a class="nav-link text-white" href="{{Route('price')}}">Prices</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-white small-auth" href="{{Route('home')}}">Blogs</a>
+                        <a class="nav-link text-white small-auth" href="{{Route('canvas-ui')}}">Blogs</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="{{Route('home')}}">Contact Us</a>
+                        <a class="nav-link text-white" href="{{Route('contact')}}">Contact Us</a>
                     </li>
                 </ul>
             </div>

@@ -1,11 +1,9 @@
 <template>
     <section>
-        <page-header />
-
         <div v-if="isReady" class="mt-5">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 mt-3">
-                <h1 class="font-serif">Canvas</h1>
-                <p class="lead text-secondary">A Laravel Publishing Platform</p>
+                <h1 class="font-serif">Dee Sweat Camp Blogging</h1>
+                <p class="lead text-secondary">Take a peek at what is going on at our gym and also get exercise tips.</p>
 
                 <main role="main" class="mt-5">
                     <div>

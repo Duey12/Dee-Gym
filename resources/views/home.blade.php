@@ -9,21 +9,22 @@
     <body>
         <div class="main-div-hero vh-100 d-flex flex-column">
             <x-navbar />
-            <div class="my-auto mx-5 hero-header">
+            <div class="my-auto mx-5 hero-header offer-card">
                 <div class="text-white">
                     <h1 class="my-3">Dee Sweat Camp</h1>
                     <p class="my-3"> Less chatting more Sweating. Get your money's worth.</p>
                 </div>
-                <div class="d-flex gap-5">
-                    <a href="{{Route('home')}}">
+                <div class="d-flex gap-5 my-5">
+                    <a href="{{Route('price')}}">
                         <button class="button-71" role="button">Get Started</button>
+
                     </a>
                 </div>
             </div>
         </div>
         <div class="p-5 text-white rounded text-center jumbo" style="background:#585858;">
             <h1 class="mb-5">Welcome to Dee Sweat Camp</h1>
-            <p class="long-word my-5 fs-5">At our gym, you’re more than just a member—you’re family.
+            <p class="my-5 fs-5">At our gym, you’re more than just a member—you’re family.
                 From the moment you walk through the doors, you’re greeted with smiles, encouragement,
                 and a genuine sense of belonging. Our coaches know your name, celebrate your progress,
                 and are always there to support your goals. Fellow members become friends, sharing
@@ -31,151 +32,61 @@
                 It’s a place where fitness meets community, and together, we push limits,
                 lift each other up, and grow stronger every day.</p>
         </div>
-        <h1 class="text-center my-4">What We Offer</h1>
-        <div class="contact-container row my-5 card-effect">
-            <div class="col-sm-12 col-md-12 col-lg-6 col-img bg-light  d-flex flex-column sign-up-img-div">
-                <img src="/p1.jpg">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 py-5 form-div">
-                <h4 class="text-center">Strength Training</h4>
-                <p class="lead my-3 text-center mx-auto" style="text-align:justify;word-wrap: break-word;max-width:50%">
-                    Our gym specializes in strength training,
-                    providing a fully equipped space with free weights,
-                    machines, and expert coaching to help you build muscle,
-                    improve endurance, and reach your fitness goals. Whether
-                    you're a beginner or an experienced lifter, we offer a supportive
-                    environment to push your limits and see real results.
-                </p>
-            </div>
-        </div>
-        <div class="contact-container row my-5 game-div card-effect">
-            <div class="col-sm-12 col-md-12 col-lg-6 py-5">
-                <h4 class="text-center">Weight Loss</h4>
-                <p class="lead my-3 text-center mx-auto" style="text-align:justify;word-wrap: break-word;max-width:50%">
-                    Our gym focuses on weight loss through a
-                    combination of personalized workout plans, cardio sessions,
-                    and nutrition guidance. With a supportive community and expert trainers,
-                    we help you burn fat, increase energy, and achieve sustainable results in a motivating
-                    and results-driven environment.
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 col-img bg-light text-dark d-flex flex-column sign-up-img-div">
-                <img src="/p2.jpg">
-            </div>
-        </div>
-        <div class="contact-container row my-5 card-effect">
-            <div class="h-100 col-sm-12 col-md-12 col-lg-6 col-img bg-light text-dark d-flex flex-column sign-up-img-div">
-                <img src="/p3.jpg" style="height:100%">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 py-5 form-div">
-                <h4 class="text-center">Medical Therapy</h4>
-                <p class="lead my-3 text-center mx-auto" style="text-align:justify;word-wrap: break-word;max-width:50%">
-                    Our gym offers vibration therapy
-                    as part of a holistic approach to fitness,
-                    helping to improve muscle strength, flexibility, and
-                    circulation. Using advanced vibration platforms, our
-                    sessions target muscle activation and recovery, enhancing your
-                    workout results and promoting overall wellness in a relaxing, low-impact way.
-                </p>
-            </div>
-        </div>
-        </section>
-        <section id="pricing" class="pricing-content section-padding my-5">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h2 class="my-3">Pricing Plans</h2>
-                    <p class="my-3">We offer flexible payment plan to fit your needs</p>
+        <section id="offer-div">
+            <h1 class="text-center my-4">What We Offer</h1>
+            <div class="contact-container row my-5 card-effect card-hide offer-card">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-img bg-light  d-flex flex-column">
+                    <img src="/p1.jpg" class="">
                 </div>
-                <div class="row text-center">
-                    <div class="jumbotron jumbotron-fluid my-5 d-flex align-items-center"
-                        style="background-color:#f4f0ec;min-height:150px">
-                        <div class="container-fluid">
-                            <h2>Without Trainer</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp g-5" data-wow-duration="1s" data-wow-delay="0.1s"
-                        data-wow-offset="0"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
-                        <div class="pricing_design">
-                            <div class="single-pricing">
-                                <div class="price-head">
-                                    <h2>Daily</h2>
-                                    <h1>$800</h1>
-                                    <span>/Day</span>
-                                </div>
-                                <ul>
-                                    <li><b>Full Acesss to the gym and equipments</b> </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--- END COL -->
-                    <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp g-5" data-wow-duration="1s" data-wow-delay="0.2s"
-                        data-wow-offset="0"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <div class="pricing_design">
-                            <div class="single-pricing">
-                                <div class="price-head">
-                                    <h2>Monthly</h2>
-                                    <h1 class="price">$8,000</h1>
-                                    <span>/Monthly</span>
-                                </div>
-                                <ul>
-                                    <li><b>Full Acesss to the gym and equipments</b> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="jumbotron jumbotron-fluid my-5 d-flex align-items-center"
-                        style="background-color:#f4f0ec;min-height:150px">
-                        <div class="container-fluid">
-                            <h2>With Trainer</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp g-5" data-wow-duration="1s" data-wow-delay="0.2s"
-                        data-wow-offset="0"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <div class="pricing_design">
-                            <div class="single-pricing">
-                                <div class="price-head">
-                                    <h2>Daily</h2>
-                                    <h1 class="price">$1,200</h1>
-                                    <span>/Day</span>
-                                </div>
-                                <ul>
-                                    <li><b>Full Acesss to the gym and equipments</b></li>
-                                    <li><b>Personal Trainer to help you reach your goal</b></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--- END COL -->
-                    <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp g-5" data-wow-duration="1s" data-wow-delay="0.2s"
-                        data-wow-offset="0"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <div class="pricing_design">
-                            <div class="single-pricing">
-                                <div class="price-head">
-                                    <h2>Monthly</h2>
-                                    <h1 class="price">$12,000</h1>
-                                    <span>/Monthly</span>
-                                </div>
-                                <ul>
-                                    <li><b>Full Acesss to the gym and equipments</b></li>
-                                    <li><b>Meal Plan</b></li>
-                                    <li><b>Personal Trainer to help you reach your goal</b></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="col-sm-12 col-md-12 col-lg-6 py-5 form-div">
+                    <h4 class="text-center ">Strength Training</h4>
+                    <p class="lead my-3 text-center mx-auto"
+                        style="text-align:justify;word-wrap: break-word;max-width:50%">
+                        Our gym specializes in strength training,
+                        providing a fully equipped space with free weights,
+                        machines, and expert coaching to help you build muscle,
+                        improve endurance, and reach your fitness goals. Whether
+                        you're a beginner or an experienced lifter, we offer a supportive
+                        environment to push your limits and see real results.
+                    </p>
                 </div>
-                <!--- END ROW -->
             </div>
-            <!--- END CONTAINER -->
+            <div class="contact-container row my-5 game-div card-effect card-hide offer-card" id="reverse-offer">
+                <div class="col-sm-12 col-md-12 col-lg-6 py-5">
+                    <h4 class="text-center">Weight Loss</h4>
+                    <p class="lead my-3 text-center mx-auto"
+                        style="text-align:justify;word-wrap: break-word;max-width:50%">
+                        Our gym focuses on weight loss through a
+                        combination of personalized workout plans, cardio sessions,
+                        and nutrition guidance. With a supportive community and expert trainers,
+                        we help you burn fat, increase energy, and achieve sustainable results in a motivating
+                        and results-driven environment.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-img bg-light text-dark d-flex flex-column sign-up-img-div">
+                    <img src="/p2.jpg">
+                </div>
+            </div>
+            <div class="contact-container row my-5 card-effect card-hide offer-card">
+                <div
+                    class="h-100 col-sm-12 col-md-12 col-lg-6 col-img bg-light text-dark d-flex flex-column sign-up-img-div">
+                    <img src="/p3.jpg" style="height:100%">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 py-5 form-div">
+                    <h4 class="text-center">Medical Therapy</h4>
+                    <p class="lead my-3 text-center mx-auto"
+                        style="text-align:justify;word-wrap: break-word;max-width:50%">
+                        Our gym offers vibration therapy
+                        as part of a holistic approach to fitness,
+                        helping to improve muscle strength, flexibility, and
+                        circulation. Using advanced vibration platforms, our
+                        sessions target muscle activation and recovery, enhancing your
+                        workout results and promoting overall wellness in a relaxing, low-impact way.
+                    </p>
+                </div>
+            </div>
         </section>
+        <x-pricecard />
         <section id="testimonial" class="testimonial my-5 min-vh-100 p-5">
             <div class="row mb-5">
                 <h1 class="text-center mt-5 mb-4" style="line-height:1.7;">What our clients say</h1>
@@ -303,6 +214,7 @@
             </a>
             @endforeach
         </section>
+        <script src="/js/intersection.js"></script>
         <script>
             let video_link = document.getElementsByName('video-btn');
             let lesson_video = document.getElementById('lesson-video');
