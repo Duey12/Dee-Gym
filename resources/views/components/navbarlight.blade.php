@@ -1,5 +1,5 @@
 <header class="fs-5" id="nav-header">
-    <nav class="navbar navbar-expand-lg navbar-light  bg-dark" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand text-white fs-3" href="/">Dee Sweat Camp</a>
 

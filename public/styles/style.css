@@ -134,7 +134,7 @@ body {
   background-repeat: no-repeat;
   background-color: #444;
   background-blend-mode: overlay;
-  background-position: top right;
+  background-position: center;
   opacity: 0.9;
   /* clip-path: polygon(0 0, 100% 0%, 73% 93%, 0% 100%); */
 

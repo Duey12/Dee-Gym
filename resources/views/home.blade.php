@@ -7,8 +7,8 @@
     </head>
 
     <body>
-        <div class="main-div-hero vh-100 d-flex flex-column">
-            <x-navbar />
+        <div class="main-div-hero vh-100 d-flex flex-column" id="hero">
+            <x-navbarlight />
             <div class="my-auto mx-5 hero-header offer-card">
                 <div class="text-white">
                     <h1 class="my-3">Dee Sweat Camp</h1>
