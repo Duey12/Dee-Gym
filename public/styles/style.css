@@ -134,7 +134,7 @@ body {
   background-repeat: no-repeat;
   background-color: #444;
   background-blend-mode: overlay;
-  background-position: center;
+  background-position: top right;
   opacity: 0.9;
   /* clip-path: polygon(0 0, 100% 0%, 73% 93%, 0% 100%); */
 
@@ -377,12 +377,14 @@ a {
   .button-71 {
     padding: 16px 48px;
   }
+
 }
 
 @media (max-width: 991px) {
   .game-div {
     flex-direction: column-reverse;
   }
+  
 
   #offer-div img,
   #offer-div img {
@@ -393,4 +395,11 @@ a {
     clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
   }
 
+}
+@media (max-width: 767.98px) { 
+  .main-div-hero {
+    background-position: center;
+    background-image: url('/hero-deesweatcamp - Copy.jpg');
+
+  }
 }
